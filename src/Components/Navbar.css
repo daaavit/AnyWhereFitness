@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(141, 130, 196);
+    /* border: 1px solid lightgrey; */
+    position: fixed;
+    width: 97%
+    
+}
+
+.navbar.active {
+    background: #2a2f4a;
+
+}
+
+.navbar_text {
+    background-color: white;
+    letter-spacing: 2px;
+    color:  rgb(141, 130, 196) ;
+    margin:  1px;
+    padding: 1px;
+}
+
+.HTML_TEXT {
+    color: white;
+    letter-spacing: 2px;
+}
+
+h3{ 
+    color: white
+} 
+
+.hamburger {
+    display: flex;
+    letter-spacing: 3px;
+
+}

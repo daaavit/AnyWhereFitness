@@ -1,15 +1,14 @@
 import React from 'react'
 import './Header.css'
-import { GiHamburgerMenu } from 'react-icons/gi'
+import Navbar from './Navbar'
 
 
 const Header = () => {
     return (
         <div className='main-wrapper'>
-            <div className='h3_style' >
-                <h3><span className='FORTY_STYLE'>FORTY</span>  <span className='HTML_TEXT'>BY HTML5 UP</span></h3>
-                <h3>MENU <GiHamburgerMenu /> </h3>
-            </div>
+            <Navbar />
+            <br/>
+            <br/>
             <div className='middletext_wrapper'>
                 <div>
                     <h1 className='title'>Anywhere Fitness</h1>

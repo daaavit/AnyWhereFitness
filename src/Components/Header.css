@@ -43,3 +43,7 @@ h1, p , h3{ color: white}
     border-bottom: 3px white solid;
     margin-bottom: 20px;
 }
+
+h3_style.active {
+    background: linear-gradient()
+}

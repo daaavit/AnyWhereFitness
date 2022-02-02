@@ -1,0 +1,21 @@
+.main_wrapperThree {
+    display: flex;
+    background-color: #2a2f4a;
+    /* height: 35vh; */
+}
+
+.text_contentThree {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 30px;
+}
+
+.underline {
+    max-width: 35%;
+    border-bottom: 3px solid white;
+}
+
+.learnmore_btn {
+    max-width: 25%;
+}
